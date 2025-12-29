@@ -12,8 +12,8 @@
     "test": "node -e \"console.log('keeper: ok')\""
   },
   "dependencies": {},
-  "devDependencies": {
-    "tsx": "^4.19.2"
-    "@types/node": "^22.10.0"
-  }
+"devDependencies": {
+  "tsx": "^4.19.2",
+  "@types/node": "^22.10.0"
+}
 }
