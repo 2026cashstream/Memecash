@@ -1,6 +1,6 @@
 # 2026CashSteam (CASH) — 2026.cash
 
-[Website](https://2026.cash) · [Twitter / X](https://x.com/2026Cash) · **Ticker:** CASH · **Office CA:** `uHLt9XoKqpMMSjzRkhEZUCJ2NdUU9sxNQQcj5NJCash`
+[Website](https://2026.cash) · [Twitter / X](https://x.com/2026Cash) · **Ticker:** CASH · **Office CA:** `Az33Sc9XY1JZUri4AEtBdKgX8YYareNoNSGmNNnCash`
 
 > **Status:** Prototype / experimental.  
 > This repository is a public engineering scaffold for a Solana meme flywheel. Nothing here is financial advice.
