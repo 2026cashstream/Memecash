@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: memecash
+      POSTGRES_PASSWORD: memecash
+      POSTGRES_DB: memecash
+    ports:
+      - "5432:5432"
+    volumes:
+      - memecash_db:/var/lib/postgresql/data
+
+volumes:
+  memecash_db:
