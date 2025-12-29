@@ -7,6 +7,8 @@ memecash is an experimental on-chain flywheel on Solana:
 
 Website: 2026.cash  
 Ticker: CASH  
+Twitter: [x.com/2026Cash](https://x.com/2026Cash)
+Office Ca: uHLt9XoKqpMMSjzRkhEZUCJ2NdUU9sxNQQcj5NJCash
 Status: prototype / experimental
 
 ## Repo layout
