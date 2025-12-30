@@ -28,15 +28,19 @@ const mintUniverse = [
 ];
 
 const dryRun = String(process.env.DRY_RUN ?? "true") === "true";
-DRY_RUN=true
 
 (async () => {
   const run = await runMockFlywheel();
+
   if (dryRun) {
+    // eslint-disable-next-line no-console
     console.log("[keeper] DRY_RUN enabled, not writing anywhere.");
   }
+
+  // eslint-disable-next-line no-console
   console.log("[keeper] flywheel run:", run);
 })();
+
 
 
 async function runMockFlywheel(): Promise<FlywheelRun> {
