@@ -27,6 +27,18 @@ const mintUniverse = [
   { symbol: "POPCAT", mint: "7GCihgDB8fe6KNjn2MYtkzZcRjQy7Y4qL9Vv9bH5uQ8a" }
 ];
 
+const dryRun = String(process.env.DRY_RUN ?? "true") === "true";
+DRY_RUN=true
+
+(async () => {
+  const run = await runMockFlywheel();
+  if (dryRun) {
+    console.log("[keeper] DRY_RUN enabled, not writing anywhere.");
+  }
+  console.log("[keeper] flywheel run:", run);
+})();
+
+
 async function runMockFlywheel(): Promise<FlywheelRun> {
   const day = todayYYYYMMDD();
   const claimedSOL = Number((Math.random() * 1.2).toFixed(4));
